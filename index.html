@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hébergemant</title>
+    </head>
+    <body>
+        
+    <div class="container card shadow mb-4 col-12 col-md-4 px-2">
+        <div class="card-header m-0 font-weight-bold text-info text-center"> <spam style="color: black;">Montant </spam></div>
+        <div class="card-body">
+            <div class="card ">
+                <div class="card-body">
+                  <form  class="formulaire" id="formulaire" role="form" action='#' method="POST" enctype="multipart/form-data">
+                      
+                      <label>Montant : en fcfa</label>
+                      <input type="number"  class="montant" role="montant" name="montant" id="montant">
+
+                      <button style="color:blue;" type="submit" class="kkiapay-button" name="valide">Valider</button>
+                      <!-- <kkiapay-widget  type="submit" class="kkiapay-button"  amount="1" key="64817ef00a1311f0b26665b0670ad6cf"
+            callback="https://kkiapay-redirect.com" /> -->
+                    
+                  </form>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdn.kkiapay.me/k.js"></script>
+    <script src="kkaipay.js"></script>
+    <!-- <script amount="1" 
+        callback="/success"
+        data="GDS Shop"
+        position="right" 
+        theme="#0095ff"
+        sandbox="true"
+        key="64817ef00a1311f0b26665b0670ad6cf"
+        src="https://cdn.kkiapay.me/k.js"></script>
+    </body> -->
+</html>
